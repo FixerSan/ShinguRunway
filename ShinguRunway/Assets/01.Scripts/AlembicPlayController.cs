@@ -18,5 +18,7 @@ public class AlembicPlayController : MonoBehaviour
     void FixedUpdate()
     {
         streamPlayer.CurrentTime += Time.deltaTime;
+        if (streamPlayer.CurrentTime >= streamPlayer.EndTime)
+            streamPlayer.CurrentTime = 0;
     }
 }
