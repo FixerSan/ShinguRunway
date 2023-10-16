@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8e6a85653192f44a5429e2a96a8145, type: 3}
+  m_Name: Track_One
+  m_EditorClassIdentifier: 
+  isPlaying: 0
+  nowBGMIndex: 0
+  bgms:
+  - {fileID: 8300000, guid: b8c8232b101da1141af245bbbacc8296, type: 3}
+  - {fileID: 8300000, guid: 33ab3b8a86f67484e8baf98c5c11e77b, type: 3}
+  - {fileID: 8300000, guid: ca89a789c3c728147aaf7d2efb3f0006, type: 3}
+  - {fileID: 8300000, guid: 79682d5146952904cb5a2560186d0b6f, type: 3}
+  - {fileID: 8300000, guid: f9b10c35cac23814caae1e393b7769d6, type: 3}
